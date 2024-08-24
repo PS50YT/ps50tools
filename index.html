@@ -10,12 +10,12 @@ body {
    background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-   h1 {
-            font-family:verdana ,roboto, arial;
+	
         }
         p {
             font-size: 18px
           font-family:verdana ,roboto, arial;
+	  color:white;
   
 a {
 color: white;
@@ -595,6 +595,20 @@ font-size:19px;
 	      <a href="https://www.glassdoor.co.in/index.htm" target="_blank">https://www.glassdoor.co.in/index.htm</a><br>
 	      <a href="https://wellfound.com/" target="_blank">https://wellfound.com/</a></p></td>
 	  </tr>
+		      		<tr>
+		  <td>25</td>
+		  <td>Random Id Generator</td>
+		  <td>PS50TOOLS Random(One billion-9999999999)</td>
+		  <td><button onclick="document.getElementById('demo').innerHTML = getRndInteger(1000000000,9999999999)">Generate</button>
+
+<p id="demo"></p>
+
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+</script><br>
+          </tr>
 	</tbody>
 		</table>
 		<p align="center">
